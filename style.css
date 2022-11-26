@@ -3,6 +3,7 @@
     padding: 0;
 }
 .screen{
+    border-radius: 15px;
     justify-content: center;
     font-size: larger;
     align-items: center;
