@@ -1,8 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.screen{
+
+/* for dark mode */
+.screen {
+    color: black;
     border-radius: 15px;
     justify-content: center;
     font-size: larger;
@@ -14,22 +17,22 @@
     padding: 10px;
     height: 10vh;
 }
-.container{
+
+.container {
     height: 100vh;
     background-color: #393E46;
     padding-top: 10rem;
     text-align: center;
 }
-p{
-    color: black;
-}
-.my-container{
- 
+
+.my-container {
+
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 10px;
     background-color: #6D9886;
     border: none;
@@ -42,7 +45,8 @@ p{
     margin: 7px 4px;
     cursor: pointer;
 }
-.btn-secondary{
+
+.btn-secondary {
     border-radius: 10px;
     background-color: #F7F7F7;
     border: none;
@@ -55,11 +59,97 @@ p{
     margin: 7px 4px;
     cursor: pointer;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #F7F7F7;
     color: black;
 }
-.btn-secondary:hover{
+
+.btn-secondary:hover {
     background-color: #6D9886;
     color: white;
+}
+
+.dark{
+    border-radius: 15px;
+    background-color: #F7F7F7;
+    border: none;
+    color: black;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 7px 4px;
+    cursor: pointer;
+    font-size: 2.5rem;
+
+}
+
+/* light mode */
+.screen-lg {
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    font-size: larger;
+    align-items: center;
+    display: flex;
+    width: 20rem;
+    margin: auto;
+    background:rgba(115, 95, 50, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    height: 10vh;
+}
+
+.container-lg {
+    height: 100vh;
+    background-image: linear-gradient(45deg, #FEFCF3, #F0DBDB);
+    padding-top: 10rem;
+    text-align: center;
+}
+
+p-lg {
+    color: whitesmoke;
+}
+
+.btn-primary-lg {
+    border-radius: 10px;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px 4px;
+    cursor: pointer;
+}
+
+.btn-secondary-lg {
+    border-radius: 10px;
+    background-color: #282A3A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px 4px;
+    cursor: pointer;
+}
+
+.light{
+    border-radius: 15px;
+    background-color: #735F32;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 7px 4px;
+    cursor: pointer;
+    font-size: 2.5rem;
 }
