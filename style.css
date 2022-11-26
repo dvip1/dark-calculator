@@ -54,3 +54,11 @@ p{
     margin: 7px 4px;
     cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: #F7F7F7;
+    color: black;
+}
+.btn-secondary:hover{
+    background-color: #6D9886;
+    color: white;
+}
