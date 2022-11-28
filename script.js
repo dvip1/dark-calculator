@@ -51,5 +51,7 @@ document.querySelector(".dark").addEventListener("click", function () {
     document.querySelector(".sc").classList.toggle("screen-lg");
     document.querySelector(".btn-font").classList.toggle("light");
     document.querySelector(".btn-font").classList.toggle("dark");
+    document.querySelector(".btn-s1").classList.toggle("equal");
+    document.querySelector(".btn-s1").classList.toggle("equal-lg");
 }
 )

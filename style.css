@@ -13,14 +13,14 @@
     display: flex;
     width: 20rem;
     margin: auto;
-    background-color: #F2E7D5;
+    background-color: #D6D58E;
     padding: 10px;
     height: 10vh;
 }
 
 .container {
     height: 100vh;
-    background-color: #393E46;
+    background-color: #042940;
     padding-top: 10rem;
     text-align: center;
 }
@@ -33,10 +33,10 @@
 }
 
 .btn-primary {
-    border-radius: 10px;
-    background-color: #6D9886;
+    border-radius: 20px;
+    background-color: #005C53;
     border: none;
-    color: white;
+    color: #9FC131;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -47,15 +47,16 @@
 }
 
 .btn-secondary {
-    border-radius: 10px;
-    background-color: #F7F7F7;
+    border-radius: 20px;
+    background-color: #005C53;
     border: none;
-    color: black;
+    color: #DBF227;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 17px;
     margin: 7px 4px;
     cursor: pointer;
 }
@@ -66,13 +67,25 @@
 }
 
 .btn-secondary:hover {
-    background-color: #6D9886;
-    color: white;
+    background-color: #F7F7F7;
+    color: black;
 }
-
+.equal{
+    border-radius: 50px;
+    background-color: #D6D58E;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 7px 4px;
+    cursor: pointer;
+}
 .dark{
     border-radius: 15px;
-    background-color: #F7F7F7;
+    background:rgb(214, 213, 142, 0.9);
     border: none;
     color: black;
     padding: 7px 20px;
@@ -87,7 +100,7 @@
 
 /* light mode */
 .screen-lg {
-    color: white;
+    color: #252617;
     border-radius: 15px;
     justify-content: center;
     font-size: larger;
@@ -95,7 +108,7 @@
     display: flex;
     width: 20rem;
     margin: auto;
-    background:rgba(115, 95, 50, 0.8);
+    background:rgba(202, 217, 89, 0.5);
     backdrop-filter: blur(10px);
     padding: 10px;
     height: 10vh;
@@ -103,7 +116,7 @@
 
 .container-lg {
     height: 100vh;
-    background-image: linear-gradient(45deg, #FEFCF3, #F0DBDB);
+    background-color: #F2F2F0;
     padding-top: 10rem;
     text-align: center;
 }
@@ -113,10 +126,10 @@ p-lg {
 }
 
 .btn-primary-lg {
-    border-radius: 10px;
-    background-color: #000000;
+    border-radius: 20px;
+    background-color: #B4BF5E;
     border: none;
-    color: white;
+    color: #34401A;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -127,10 +140,11 @@ p-lg {
 }
 
 .btn-secondary-lg {
-    border-radius: 10px;
-    background-color: #282A3A;
+    font-weight: 510;
+    border-radius: 20px;
+    background-color:#B4BF5E;
     border: none;
-    color: white;
+    color: #252617;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -139,10 +153,22 @@ p-lg {
     margin: 7px 4px;
     cursor: pointer;
 }
-
+.equal-lg{
+    border-radius: 50px;
+    background-color: #D6D58E;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 7px 4px;
+    cursor: pointer;
+}
 .light{
     border-radius: 15px;
-    background-color: #735F32;
+    background-color: #B4BF5E;
     border: none;
     color: white;
     padding: 7px 20px;
